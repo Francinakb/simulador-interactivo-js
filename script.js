@@ -17,6 +17,10 @@ function registroAlumnxs(edad1, edad2, edad3, edad4, edad5, edad6) {
     let promedio = edades / 6
 
     return promedio
+
+
+}    if(isNaN(edad1) || isNaN(edad2) || isNaN(edad3) || isNaN(edad4) || isNaN(edad5) || isNaN(edad6)){
+    alert ("No está ingresando una edad correcta, intente nuevamente")
 }
 
 // console.log concateno con backticks el promedio y el registro
